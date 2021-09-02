@@ -1,0 +1,86 @@
+body {
+  font-family: Roboto;
+  font-size: medium;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr auto 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  place-items: center;
+}
+
+/*.collapsibleDiv
+{
+  display:grid;
+  grid-template-columns: 5rem 5rem 5rem;
+  grid-template-rows:auto;
+  grid-column-gap: 1em;
+}*/
+
+.middleGridDiv {
+  margin: 0;
+  overflow-y: scroll;
+  grid-area: 2 / 2 / 3 / 3;
+  height: 20em;
+  width: 40em;
+  border: 2px rgb(199, 199, 199) solid;
+}
+
+.collapsibleDetails
+{
+  
+  margin-left: 1.5rem;
+  line-height: 1ch;
+}
+
+.collapsible-header
+{
+  margin-left: 0.15ch;
+  line-height: 0;
+}
+
+.removeIcon,.addIcon
+{
+  display: inline-flex;
+}
+
+.startTime,.endTime
+{
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+.collapsible-header
+{
+  display: inline-flex;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+.execHeader
+{
+  background-color: rgba(63, 15, 64, 1);
+}
+.execH1
+{
+  color:rgba(250, 250, 250, 1);
+}
+
+.Testing
+{
+display: inline-flex;
+}
+
+.pTesting
+{
+display: inline-flex;
+}

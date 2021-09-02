@@ -1,0 +1,98 @@
+body {
+  font-family: Roboto;
+  font-size: medium;
+}
+
+.parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr auto 0.5fr;
+      grid-template-columns: 0.5fr auto 0.5fr;
+  -ms-grid-rows: 0.5fr 0.5fr 0.5fr;
+      grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  place-items: center;
+}
+
+/*.collapsibleDiv
+{
+  display:grid;
+  grid-template-columns: 5rem 5rem 5rem;
+  grid-template-rows:auto;
+  grid-column-gap: 1em;
+}*/
+.middleGridDiv {
+  margin: 0;
+  overflow-y: scroll;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  height: 20em;
+  width: 40em;
+  border: 2px #c7c7c7 solid;
+}
+
+.collapsibleDetails {
+  margin-left: 1.5rem;
+  line-height: 1ch;
+}
+
+.collapsible-header {
+  margin-left: 0.15ch;
+  line-height: 0;
+}
+
+.removeIcon, .addIcon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.startTime, .endTime {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+.collapsible-header {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.execHeader {
+  background-color: #3f0f40;
+}
+
+.execH1 {
+  color: #fafafa;
+}
+
+.Testing {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.pTesting {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*# sourceMappingURL=styles.css.map */
